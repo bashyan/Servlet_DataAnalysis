@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Customer Data Analysis</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <h1>Enter Customer Data</h1>
+            <form action="http://localhost:8080" method="GET">
+                <h1>Customer Details</h1>
+                <input type="text" name="ID" placeholder="ID"/><br/> 
+                <input type="text" name="Name" placeholder="Name"/><br/>  
+                <div>
+                    <input type="radio" name="Gender" value="Male"> Male<br/>
+                    <input type="radio" name="Gender" value="Female"> Female<br/>
+                </div>                  
+                <input type ="text" name="Address" placeholder="Address"/><br/>  
+                <input type ="text" name="Phone" placeholder="Contact"/> <br/> 
+                <input type="date" name="DOB"><br/><br/>
+                <input type="text" name="Age" placeholder="Age"/><br/>
+                <input type ="text" name="City" placeholder="City"/><br/>
+                <div>
+                    <select name="Country">
+                        <option  value="China">China</option>
+                        <option  value="India">India</option>
+                        <option  value="Australia">Australia</option>
+                        <option  value="UK">United Kingdom</option>
+                        <option  value="USA">United States</option>	
+                    </select>
+                </div><br/>
+                <input type="text" name="Pin" placeholder="Pincode"/><br/>
+                <input type="checkbox" name="AOInterest" value="Playing"/>Playing<br/> 
+                <input type="checkbox" name="AOInterest" value="Reading"/>Reading<br/>
+                <input type="checkbox" name="AOInterest" value="Painting"/>Painting<br/>
+                <input type="checkbox" name="AOInterest" value="Photography"/>Photography<br/>
+                <input type="checkbox" name="AOInterest" value="Travelling"/>Traveling<br/>
+                <input type ="Submit" name="Submit" value="Submit"/>  
+                <input type ="Reset" name="Reset" value="Reset"/>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Student Data</title>
+    </head>
+    <body>
+        <div>
+            <form action="http://localhost:8080/ServletStudentAnalysis/StudentDemoServletFile" method="GET">
+                <h1>Enter Student Data</h1><br/><hr/><br>
+                <input type ="text" name="StuID" placeholder="ID, eg: s123" required pattern="[s]+[0-9]{3}" title="starts with s, following 3 digits"/>  
+                <input type ="text" name="StuName" placeholder="Name, not more than 30 characters" maxlength="30" title="max 30 characters" />  
+                <input type ="number" name="StuAge" min="0" max="25" placeholder="Age, not more than 25" title="max age 25"/>  
+                <input type ="number" name="StuMark" min="0" placeholder="Mark" title="enter positive value"/>  
+                <input type ="text" name="StuPe" placeholder="Percentage, eg:98"/>  
+                <input type ="text" name="StuGrade" placeholder="Grade, eg: A,B,C,D or E" pattern="[A,B,C,D,E]" title="enter only A,B,C,D or E"/>  
+                <input type ="Submit" name="Submit" value="Submit"/>  
+                <input type ="Reset" name="Reset" value="Reset"/>
+            </form>
+        </div>
+    </body>
+</html>

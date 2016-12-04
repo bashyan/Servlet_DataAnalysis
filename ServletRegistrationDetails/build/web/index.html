@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Registration Details</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <form action="http://localhost:8080/ServletRegistrationDetails/ServletRegistrationDetails" method="GET">
+                <h1>Registration Details</h1>
+                <input type ="text" name="Name" placeholder="Name"/><br/>  
+                <div>
+                    <input type="radio" name="Gender" value="Male"> Male<br/>
+                    <input type="radio" name="Gender" value="Female"> Female<br/>
+                    <input type="radio" name="Gender" value="Other"> Other<br/>
+                </div>  
+                <input id="email" type="text" name="EMail" pattern="[a-zA-Z]{3,}@[a-zA-Z]{3,}[.]{1}[a-zA-Z]{2,}" required placeholder="yourname@web.com">
+                <br/>  
+                <input type ="text" name="Address" placeholder="Address"/><br/>  
+                <input type ="text" name="Contact" placeholder="Contact"/> <br/> 
+                <input type="date" name="DOB" min="1900-01-01" max="2016-12-01"><br/><br/>
+                <input type ="text" name="City" placeholder="City"/><br/>
+                <input type ="text" name="State" placeholder="State"/><br/><br/>
+                <div>
+                    <select name="Country">
+                        <option  value="UAE">United Arab Emirates</option>
+                        <option  value="UK">United Kingdom</option>
+                        <option  value="USA">United States</option>	
+                    </select>
+                </div><br/>
+                <input type ="Submit" name="Submit" value="Submit"/>  
+                <input type ="Reset" name="Reset" value="Reset"/>
+        </div>
+    </body>
+</html>

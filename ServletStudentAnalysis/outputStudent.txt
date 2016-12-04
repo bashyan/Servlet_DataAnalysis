@@ -1,0 +1,89 @@
+Student Data
+Student ID 	: s145
+Student Name 	: Bas
+Student Age 	: 23
+Student Mark 	: 850
+Student Perc 	: 85%
+Student Grade 	: A
+//
+Student Data
+Student ID 	: s287
+Student Name 	: Bos
+Student Age 	: 22
+Student Mark 	: 440
+Student Perc 	: 44%
+Student Grade 	: E
+//
+Student Data
+Student ID 	: s345
+Student Name 	: Bis
+Student Age 	: 21
+Student Mark 	: 980
+Student Perc 	: 98%
+Student Grade 	: A
+//
+Student Data
+Student ID 	: s469
+Student Name 	: Bes
+Student Age 	: 24
+Student Mark 	: 360
+Student Perc 	: 36%
+Student Grade 	: E
+//
+Student Data
+Student ID 	: s509
+Student Name 	: Bus
+Student Age 	: 22
+Student Mark 	: 970
+Student Perc 	: 97%
+Student Grade 	: A
+//
+Student Data
+Student ID 	: s643
+Student Name 	: Bjs
+Student Age 	: 23
+Student Mark 	: 540
+Student Perc 	: 54%
+Student Grade 	: D
+//
+Student Data
+Student ID 	: s787
+Student Name 	: Bgh
+Student Age 	: 21
+Student Mark 	: 340
+Student Perc 	: 34%
+Student Grade 	: E
+//
+Student Data
+Student ID 	: s876
+Student Name 	: Bsd
+Student Age 	: 17
+Student Mark 	: 320
+Student Perc 	: 32%
+Student Grade 	: E
+//
+Student Data
+Student ID 	: s984
+Student Name 	: Bds
+Student Age 	: 19
+Student Mark 	: 460
+Student Perc 	: 46%
+Student Grade 	: E
+//
+Student Data
+Student ID 	: s993
+Student Name 	: Byt
+Student Age 	: 23
+Student Mark 	: 900
+Student Perc 	: 90%
+Student Grade 	: A
+//
+
+Student Data
+Student ID 	: s125
+Student Name 	: sdfvb
+Student Age 	: 23
+Student Mark 	: 23
+Student Perc 	: 23%
+Student Grade 	: A
+//
